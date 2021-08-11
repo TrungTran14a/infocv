@@ -13,6 +13,7 @@ var job = (mydata[2].job);
 
 document.getElementById('fname').innerHTML = myname;
 document.getElementById('fname2').innerHTML = myname;
+document.getElementById('fname3').innerHTML = myname;
 document.getElementById('bday').innerHTML = bday;
 document.getElementById('linkcv').innerHTML = linkcv;
 var Cphone = document.getElementById('phonenum');
@@ -25,8 +26,11 @@ if(Cphone)
 
 
 document.getElementById('city').innerHTML = city;
+document.getElementById('city2').innerHTML = city;
 document.getElementById('age').innerHTML = age;
 document.getElementById('mymail').innerHTML = mymail + " - " +mymail2;
+document.getElementById('mymail2').innerHTML = mymail;
+document.getElementById('mymail3').innerHTML = mymail;
 document.getElementById('wexp').innerHTML = wexp + " years";
 document.getElementById('job').innerHTML = job;
 
